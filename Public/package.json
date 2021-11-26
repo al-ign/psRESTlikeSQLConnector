@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "author": "IAN",
+  "main": "./server.ps1",
+  "license": "MIT",
+  "scripts": {
+    "install": "yarn install --force --ignore-scripts --modules-folder pode_modules",
+    "test": "invoke-pester ./tests/*.ps1",
+    "start": "./server.ps1",
+    "build": "psake"
+  },
+  "description": "REST-like API for .NET SQL connectors",
+  "name": "psRESTlikeSQLConnector"
+}
